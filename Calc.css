@@ -1,0 +1,48 @@
+#schermo{
+
+    border: solid 3px burlywood;
+    height: 18pt;
+    font-size: medium;
+}
+
+.bottone{
+
+    border: solid 2px burlywood;
+    height: 50pt;
+    width: 50pt;
+    font-size: medium;
+}
+
+.bottoneOP{
+
+    background-color: rgb(187, 207, 37);
+    border: solid 2px burlywood;
+    height: 50pt;
+    width: 50pt;
+    font-size: medium;
+}
+
+#zero{
+    background-color: rgb(187, 207, 37);
+    border: solid 2px burlywood;
+    height: 50pt;
+    width: 50pt;
+    font-size: medium;
+}
+
+.bottoneCanc{
+
+    background-color:red;
+    border: solid 2px burlywood;
+    width: 50pt;
+    height: 50pt;
+    font-size: medium;
+}
+
+.uguale{
+
+    width: 207pt;
+    height: 29pt;
+    border: solid 2px burlywood;
+    font-size: medium;
+}

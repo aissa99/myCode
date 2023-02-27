@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Calc.css">
+        <title>Calcolatrice</title>
+    </head>
+    <body>
+
+        <p>Il calcolatrice non prende per il momento più di 2 operandi</p>
+        <h3>CALCOLATRICE</h3>
+
+        <div>
+            <input type="text" id="schermo" size="30" readonly="" value="">
+        </div>
+        <br>
+        <div class="pulsanti" id="boutons">
+            <input type="button" id="7" class="bottone" value="7"
+                name="sept" onclick="seleziona(this.id)">
+            <input type="button" id="8" class="bottone" value="8"
+                name="huit" onclick="seleziona(this.id)">
+            <input type="button" id="9" class="bottone" value="9"
+                name="neuf" onclick="seleziona(this.id)">
+            <input type="button" id="div" class="bottoneOP" value="/"
+                name="div"
+                onclick="seleziona(this.value)">
+            <br>
+            <br>
+            <input type="button" id="4" class="bottone" value="4"
+                name="4" onclick="seleziona(this.id)">
+            <input type="button" id="5" class="bottone" value="5"
+                name="5" onclick="seleziona(this.id)">
+            <input type="button" id="6" class="bottone" value="6"
+                name="6" onclick="seleziona(this.id)">
+            <input type="button" id="mult" class="bottoneOP" value="*"
+                name="mult"
+                onclick="seleziona(this.value)">
+            <br>
+            <br>
+            <input type="button" id="1" class="bottone" value="1"
+                name="un" onclick="seleziona(this.id)">
+            <input type="button" id="2" class="bottone" value="2"
+                name="deux" onclick="seleziona(this.id)">
+            <input type="button" id="3" class="bottone" value="3"
+                name="trois" onclick="seleziona(this.id)">
+            <input type="button" id="sub" class="bottoneOP" value="-"
+                name="sub"
+                onclick="seleziona(this.value)">
+            <br>
+            <br>
+            <input type="button" id="c" class="bottoneCanc" value="C"
+                name="c"
+                onclick="cancella()">
+            <input type="button" id="zero" value="0"
+                name="0" onclick="seleziona(this.value)">
+            <input type="button" id="." class="bottone" value="." name="."
+                onclick="seleziona(this.id)">
+            <input type="button" id="add" class="bottoneOP" value="+"
+                name="add"
+                onclick="seleziona(this.value)">
+            <br>
+            <br>
+            <input type="button" id="uguale" class="uguale" value="=" name="="
+                onclick="calc()">
+        </div>
+
+        <script src="app/calcolatrice.js"></script>
+    </body>
+</html>
