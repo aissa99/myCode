@@ -18,7 +18,6 @@ function calc() {
     var schermo = document.getElementById("schermo").value;
 
     //Condizione per il plus
-    //?A voir la periodicita dei numeri decimali
     if (schermo.includes("+")) {
       var indexOp1Plus = schermo.indexOf("+");
       var op1Plus = parseFloat(schermo.substring(0, indexOp1Plus));
